@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>MWS Vehicle</title>
+	<link rel="stylesheet" href="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<style>
+		.logo img{
+			height: 200px;
+			width: 100%;
+			padding: 0;
+			margin: 0;
+		}
+		.navbar{
+			border-radius: 0;
+			margin-bottom:0;
+			font-size: 25px;
+		}
+		.item img{
+			width: 100%;
+			max-height: 400px;
+		}
+		.table{
+			font-size: 20px;
+
+		}
+		.panel img{
+			width: 100%;
+			height: 300px;
+		}
+		.panel{
+			font-size: 20px;
+			text-align: center;
+		}
+		.contact{
+			font-size: 20px;
+			background-color: #B0AFAF;
+			text-align: center;
+		}
+		.body {			
+			text-align: center;
+		}
+		.body img{
+			height: 400px;
+		}
+		.input-group{
+			margin-top: 10px;
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<div class="container-fluid">
+				<div>
+					<div class="logo">
+							<img src="mws.png" alt="">	
+					</div>
+				</div>					
+		</div>
+	</div>
+	<div class="navbar navbar-inverse">
+		<div class="container-fluid">	
+			<div class="navbar-header">
+				<button class="navbar-toggle" data-toggle="collapse" data-target="#mynav">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>	
+				</button>
+			</div>
+			<div class="collapse navbar-collapse" id="mynav">
+				<div class="col-sm-6">
+					<ul class="nav navbar-nav">
+						<li><a href="./MWS.html">Home</a><li>
+						<li><a href="" class="dropdown-toggle" data-toggle="dropdown">Product<span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="./car.html">Car</a></li>
+								<li><a href="">Motobike</a></li>
+							</ul>
+						<li><a href="./news.html" >News</a></li>
+						
+						</li>
+						<li><a href="./about.html">About Us</a></li>
+						<li><a href="./contact.html">Contact Us</a></li>
+						<li><a href="./help.html">Help</a></li>
+						<li><a href="./feedback.html">Feedback</a></li>
+					</ul>
+				</div>
+				<div class="col-sm-4">
+					<div class="nav navbar-nav navbar-right">
+						<ul>
+							<form>
+							  <div class="input-group">
+							    <input type="text" class="form-control" placeholder="Search">
+							    <div class="input-group-btn">
+							      <button class="btn btn-default" type="submit">
+							        <i class="glyphicon glyphicon-search"></i>
+							      </button>
+							    </div>
+							  </div>
+							</form>
+						</ul>
+					</div>
+					
+				</div>
+				<div class="col-sm-2">
+					<ul class="nav navbar-nav navbar-right">
+					<li><a href="./cart.html"><span class="glyphicon glyphicon-shopping-cart"></span>Shopping Cart</a></li>
+				</ul>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	<div class="col-sm-12">
+		<div class="col-sm-7">
+			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+				  <!-- Indicators -->
+				  <ol class="carousel-indicators">
+				    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				    <li data-target="#myCarousel" data-slide-to="1"></li>
+				    <li data-target="#myCarousel" data-slide-to="2"></li>
+				    <li data-target="#myCarousel" data-slide-to="3"></li>
+				  </ol>
+
+				  <!-- Wrapper for slides -->
+				  <div class="carousel-inner">
+				    <div class="item active">
+				      <img src="xe1.jpg" alt="">
+				    </div>
+
+				    <div class="item">
+				      <img src="xe3.jpg" alt="">
+				    </div>
+
+				    <div class="item">
+				      <img src="xe2.jpg" alt="">
+				    </div>
+				     <div class="item">
+				      <img src="xe4.jpg" alt="">
+				    </div>
+				  </div>
+
+				  <!-- Left and right controls -->
+				  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+				    <span class="glyphicon glyphicon-chevron-left"></span>
+				    <span class="sr-only">Previous</span>
+				  </a>
+				  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+				    <span class="glyphicon glyphicon-chevron-right"></span>
+				    <span class="sr-only">Next</span>
+				  </a>
+			</div>
+		</div>
+		<div class="col-sm-5">
+			<div class="item">			
+				<img src="ad.png" alt="">
+			</div>
+
+		</div>
+	</div>
+		<div class="container-fluid">
+			<div class="col-sm-2">
+				<div>
+					<div class="table-responsive">
+						<table class="table">
+						<thead>
+							<tr>
+								<th><a href="./car.html">CAR</a></th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td><a href="./audi.html">Audi</a></td>
+							</tr>
+							<tr>
+								<td><a href="">Honda</a></td>
+							</tr>
+							<tr>
+								<td><a href="">Lamborghini</a></td>
+							</tr>
+							<tr>
+								<td><a href="">Huyndai</a></td>
+							</tr>
+							<tr>
+								<td><a href="">BMW</a></td>
+							</tr>
+							<tr>
+								<td><a href="">Others...</a></td>
+							</tr>
+						</tbody>
+					</table>
+					</div>	
+				</div>
+				<div>
+					<div class="table-responsive">
+						<table class="table">
+						<thead>
+							<tr>
+								<th><a href="">Motobikes</a></th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td><a href="">Honda</a></td>
+							</tr>
+							<tr>
+								<td><a href="">Yamaha</a></td>
+							</tr>
+							<tr>
+								<td><a href="">Ducati</a></td>
+							</tr>
+							<tr>
+								<td><a href="">Suzuki</a></td>
+							</tr>
+							<tr>
+								<td><a href="">Others...</a></td>
+							</tr>
+						</tbody>
+					</table>
+					</div>	
+				</div>
+			</div>
+			<div class="col-sm-10">
+				<div class="body">
+					<div>
+						<h1>Best new cars of 2017</h1>
+					</div>
+					<div>
+						<img src="./Xe/newcar.png" alt="">
+					</div>
+				</div>
+					<div>
+						<h3>The best new cars we're looking forward to in 2017 including the Alfa Romeo Stelvio, McLaren 720S, Audi A8, Kia Stinger and more</h3><br>
+						<p>What a year 2017 is shaping up to be for the car industry. There are numerous new models scheduled to come on to the market in the coming months, ranging from standard family hatchbacks to brilliant sports cars, so expect an action-packed year ahead. However, with so many manufacturers planning something big for 2017, we thought we'd better pick out some of the very best new cars we're looking forward to in the year ahead.</p>
+						<p>There's some easy-to-spot trends in the new car market, with more and more manufacturers capitalising on the SUV boom that's hit the UK in recent years. Every company is now trying to get a share of this rapidly-growing sector but that doesn't mean they've given up on the rest of the range though as you'll also find a wide variety of superminis, family cars, sports cars and hatchbacks on this list.</p>
+						<p>A few models will receive long-overdue upgrades too, particularly luxury and executive cars like the Mercedes C-Class, Audi A8 and Mercedes S-Class. We'll also see some of the most important models upgraded - the best-selling cars on the market - like the Volkswagen Golf and Nissan Qashqai.</p>
+						<h3>Alfa Romeo Stelvio</h3>
+						<img src="./Xe/new1.jpg" alt="">
+						<p><span><strong>Price:</strong></span> From £30,000 (est)</p>
+						<p><span><strong>On sale: </strong></span> Autumn</p><br>
+						<p>Alfa Romeo is on a high at the moment, after the enthusiastic response to its Giulia saloon. Now the Italian brand is set to boost its order books even further with its first SUV: the Stelvio.</p>
+						<p>The Stelvio actually shares many chassis and engine parts with the Giulia – along with some of the saloon’s styling. The headlight treatment and front grille are very similar, giving the SUV an imposing look.</p>
+						<p>Under the skin, you’ll be able to pick from two engines at launch – a 2.0-litre turbocharged petrol with 276bhp, or Alfa’s 2.2-litre turbodiesel with 207bhp and a useful 470Nm of torque. Both cars are four-wheel drive, and they get an eight-speed automatic gearbox as standard; a manual isn’t offered, even as an option.</p>
+						<p>Further down the line, Alfa will wheel out a 503bhp flagship version of the car, based on the same Ferrari-derived twin-turbo V6 that we’ve already sampled in the Giulia Quadrifoglio.
+						Inside, it’s very much like sitting in a slightly elevated Giulia; the dashboard layout and design are basically identical. But that’s no bad thing, because this high-quality finish keeps it upmarket.</p><br>
+						<h3>Aston Martin Vantage</h3>
+						<img src="./Xe/new2.jpg" alt="">
+						<p><span><strong>Price:</strong></span> From £100,000 (est)</p>
+						<p><span><strong>On sale: </strong></span> Late 2017</p><br>
+						<p>Nothing lasts forever, and while the elegant Aston Martin Vantage seems to have been around for an age, it’s due for replacement this year. It will use the first fruits of the brand’s tie-up with Mercedes, because it will get an AMG-tuned V8, and there will be coupe and roadster models. Our exclusive image shows an evolutionary design, as with other Astons, with cues from models like the Vulcan.</p>
+						<h3>Audi A8</h3>
+						<img src="./Xe/audi8.jpg" alt="">
+						<p><span><strong>Price:</strong></span> From £65,000 (est)</p>
+						<p><span><strong>On sale: </strong></span> Summer</p><br>
+						<p>Flagship limos are usually a showcase for a manufacturer’s cutting-edge technology, and the new Audi A8 is no exception. It’s set to be one of the first cars in the world to feature Level 3 autonomous driving tech. This builds on Audi’s Piloted Driving system, and means that the driver can hand control over to the car in certain situations, chiefly on the motorway.</p>
+						<p>The A8 will also showcase Audi’s new design direction – previewed by the Prologue Concept – featuring wider grille styling and exaggerated proportions.</p>
+						<h3>Audi RS5 Coupe</h3>
+						<img src="./Xe/new3.jpg" alt="">
+						<p><span><strong>Price:</strong></span> From £60,000 (est)</p>
+						<p><span><strong>On sale: </strong></span> Late 2017</p><br>
+						<p>With a new A5 Coupe in dealers, it was only a matter of time before the flagship RS 5 would break cover.</p>
+						<p>Audi has launched the RS model sooner in the A5’s lifecycle to satisfy customer demand for high-performance models, and with its big wheels and meaty bodykit, it looks the part. Under the skin, quattro four-wheel drive is present, but power comes from a twin-turbo V6 TFSI co-developed with Porsche. It delivers as much power as the V8, but more torque.</p>
+					</div>								
+			</div>	
+		</div>
+	<div class="contact">
+		<p>Any questions please contact us at:</p>
+		<p>Hotline: 123456789</p>
+		<p>Email: mwsvehicle@gmail.com</p>
+		<p>Thank you for your interest!</p>
+	</div>
+</body>
+</html>
